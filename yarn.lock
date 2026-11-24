@@ -2,13 +2,13 @@
 # yarn lockfile v1
 
 
-"@devicefarmer/adbkit-apkreader@^3.2.1":
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/@devicefarmer/adbkit-apkreader/-/adbkit-apkreader-3.2.1.tgz#770285d8bec5166bfcd79e3be74890710d273fce"
-  integrity sha512-mn21lRAH2jjrkOELVQmspANX48Xf5yOqIVL7BjBewSLtwHrco+mx9qk4HaAnJFjnnE6Rdm30GtzsTJNWVgvPEA==
+"@devicefarmer/adbkit-apkreader@^3.2.2":
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/@devicefarmer/adbkit-apkreader/-/adbkit-apkreader-3.2.4.tgz#0f4921977462fe6f1454c99b8272ab1815e8ee32"
+  integrity sha512-WtVmPuirX3/lBN9Z2AC/4DnK7XrXcMi0h3yhxNogxgp6+GVbO6W4RqmuCKlNm1PjyI2GRbw4XwGRQ8cR/IRN6A==
   dependencies:
     bluebird "^3.4.7"
-    debug "~4.1.1"
+    debug "~4.3.1"
     yauzl "^2.7.0"
 
 "@devicefarmer/adbkit-logcat@^1.1.0":
@@ -23,23 +23,23 @@
   dependencies:
     async "~0.2.9"
 
-"@devicefarmer/adbkit@^2.11.2":
-  version "2.11.2"
-  resolved "https://registry.yarnpkg.com/@devicefarmer/adbkit/-/adbkit-2.11.2.tgz#95c67f5489a8f5102a678121062a5b9a7da62469"
-  integrity sha512-4Sd9yRbtXnN6Y+J2JCf3WONfhWm0VUFyg0cCV3oQMgxTnSPoND9jaIgIc3ly83FCu2CqCx5h2B8p0vhe8NaVOQ==
+"@devicefarmer/adbkit@^2.11.3":
+  version "2.11.4"
+  resolved "https://registry.yarnpkg.com/@devicefarmer/adbkit/-/adbkit-2.11.4.tgz#8b40f9d07bb70c93d8d26fa9b4d53fc4995f8c0f"
+  integrity sha512-N1b500meK85sVz5MjM4M65JZjJpxTR58NxcylGTB5g9/29N5Q6T6juzVeGZMNW+hqrPTHSYJLzdALMJcEmP3aQ==
   dependencies:
     "@devicefarmer/adbkit-logcat" "^1.1.0"
     "@devicefarmer/adbkit-monkey" "~1.0.1"
     bluebird "~2.9.24"
     commander "^2.3.0"
     debug "~2.6.3"
-    node-forge "^0.9.1"
+    node-forge "^0.10.0"
     split "~0.3.3"
 
-"@devicefarmer/minicap-prebuilt@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@devicefarmer/minicap-prebuilt/-/minicap-prebuilt-2.4.0.tgz#c001010fa7c4a352008b4370f22de0c850a203a3"
-  integrity sha512-rCtNXILYjNiXFiAhNssbDWwiYxEuTWz7vMk018+FaTmXNmSemBNP6tMg70uqXzJafNiICdqqahlKqmgRUDHG3g==
+"@devicefarmer/minicap-prebuilt@^2.5.0":
+  version "2.7.4"
+  resolved "https://registry.yarnpkg.com/@devicefarmer/minicap-prebuilt/-/minicap-prebuilt-2.7.4.tgz#6acf99734945810246dae8969310dd032463f4b4"
+  integrity sha512-pEMT+yEWMiSTAenpG6PRBUkVAdZAr1MibTsw+uMoDuFwVLTM8fPxTQ1UFBpWeC2cLdVlJTcwUKoo2AuvSINVgg==
 
 "@devicefarmer/minitouch-prebuilt@^1.3.0":
   version "1.3.0"
@@ -84,6 +84,53 @@
     nan "^2.14.0"
     prebuild-install "^5.3.0"
 
+"@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@protobufjs/aspromise/-/aspromise-1.1.2.tgz#9b8b0cc663d669a7d8f6f5d0893a14d348f30fbf"
+  integrity sha512-j+gKExEuLmKwvz3OgROXtrJ2UG2x8Ch2YZUxahh+s1F2HZ+wAceUNLkvy6zKCPVRkU++ZWQrdxsUeQXmcg4uoQ==
+
+"@protobufjs/base64@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@protobufjs/base64/-/base64-1.1.2.tgz#4c85730e59b9a1f1f349047dbf24296034bb2735"
+  integrity sha512-AZkcAA5vnN/v4PDqKyMR5lx7hZttPDgClv83E//FMNhR2TMcLUhfRUBHCmSl0oi9zMgDDqRUJkSxO3wm85+XLg==
+
+"@protobufjs/codegen@^2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@protobufjs/codegen/-/codegen-2.0.5.tgz#d9315ad7cf3f30aac70bda3c068443dc6f143659"
+  integrity sha512-zgXFLzW3Ap33e6d0Wlj4MGIm6Ce8O89n/apUaGNB/jx+hw+ruWEp7EwGUshdLKVRCxZW12fp9r40E1mQrf/34g==
+
+"@protobufjs/eventemitter@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@protobufjs/eventemitter/-/eventemitter-1.1.1.tgz#d512cb26c0ae026091ee2c1167f1be6faf5c842a"
+  integrity sha512-vW1GmwMZNnL+gMRaovlh9yZX74kc+TTU3FObkkurpMaRtBfLP3ldjS9KQWlwZgraRE0+dheEEoAxdzcJQ8eXZg==
+
+"@protobufjs/fetch@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@protobufjs/fetch/-/fetch-1.1.1.tgz#4d6fc00c8fb64016a5c81b469d549046350f1065"
+  integrity sha512-GpptLrs57adMSuHi3VNj0mAF8dwh36LMaYF6XyJ6JMWlVsc+t42tm1HSEDmOs3A8fC9yyeisgLhsTVQokOZ0zw==
+  dependencies:
+    "@protobufjs/aspromise" "^1.1.1"
+
+"@protobufjs/float@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@protobufjs/float/-/float-1.0.2.tgz#5e9e1abdcb73fc0a7cb8b291df78c8cbd97b87d1"
+  integrity sha512-Ddb+kVXlXst9d+R9PfTIxh1EdNkgoRe5tOX6t01f1lYWOvJnSPDBlG241QLzcyPdoNTsblLUdujGSE4RzrTZGQ==
+
+"@protobufjs/path@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@protobufjs/path/-/path-1.1.2.tgz#6cc2b20c5c9ad6ad0dccfd21ca7673d8d7fbf68d"
+  integrity sha512-6JOcJ5Tm08dOHAbdR3GrvP+yUUfkjG5ePsHYczMFLq3ZmMkAD98cDgcT2iA1lJ9NVwFd4tH/iSSoe44YWkltEA==
+
+"@protobufjs/pool@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@protobufjs/pool/-/pool-1.1.0.tgz#09fd15f2d6d3abfa9b65bc366506d6ad7846ff54"
+  integrity sha512-0kELaGSIDBKvcgS4zkjz1PeddatrjYcmMWOlAuAPwAeccUrPHdUqo/J6LiymHHEiJT5NrF1UVwxY14f+fy4WQw==
+
+"@protobufjs/utf8@^1.1.1":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@protobufjs/utf8/-/utf8-1.1.2.tgz#78d476333d85d5b1c792e257bca74ba080da49a4"
+  integrity sha512-b1UQwcEZ4yCnMCD8DAL1VlbvBJE9/IX4FTIp7BG1xYpf29SLazLSrqUkj4w7Y5y7cCVP6E5tcqqcI0xemPkHug==
+
 "@slack/client@^3.5.4":
   version "3.10.0"
   resolved "https://registry.yarnpkg.com/@slack/client/-/client-3.10.0.tgz#dd6a1d3e21bbec34f04980f65066bb276ede40fc"
@@ -104,6 +151,13 @@
 "@types/jasmine@^2.5.36":
   version "2.5.52"
   resolved "https://registry.yarnpkg.com/@types/jasmine/-/jasmine-2.5.52.tgz#6ea5435d5c71562296e63ef27a4718f94f2fbb13"
+
+"@types/node@>=13.7.0":
+  version "26.6.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-26.6.6.tgz#9ed7b5817e728ed9216ef7c5b7d373fe3b777104"
+  integrity sha512-MzQj+8Kx3XI40OmUAE6Qoh58ZMNstNNMwn2nfd3qWsfe7nDNSqJNzes4njhz6AHwrSHOffSLwXU6yb474Q4aog==
+  dependencies:
+    undici-types "~8.9.0"
 
 "@types/node@^6.0.46":
   version "6.0.78"
@@ -487,13 +541,6 @@ asap@~1.0.0:
 asap@~2.0.3:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/asap/-/asap-2.0.5.tgz#522765b50c3510490e52d7dcfe085ef9ba96958f"
-
-ascli@~0.3:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/ascli/-/ascli-0.3.0.tgz#5e66230e5219fe3e8952a4efb4f20fae596a813a"
-  dependencies:
-    colour latest
-    optjs latest
 
 asn1.js@^4.0.0:
   version "4.9.1"
@@ -1106,10 +1153,6 @@ bufferutil@^1.2.1:
     bindings "~1.2.1"
     nan "~2.4.0"
 
-bufferview@~1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/bufferview/-/bufferview-1.0.1.tgz#7afd74a45f937fa422a1d338c08bbfdc76cd725d"
-
 builtin-modules@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-1.1.1.tgz#270f076c5a72c02f5b65a47df94c5fe3a278892f"
@@ -1133,13 +1176,6 @@ busboy@^0.2.11:
   dependencies:
     dicer "0.2.5"
     readable-stream "1.1.x"
-
-"bytebuffer@~3 >=3.5":
-  version "3.5.5"
-  resolved "https://registry.yarnpkg.com/bytebuffer/-/bytebuffer-3.5.5.tgz#7a6faf1a13514b083f1fcf9541c4c9bfbe7e7fd3"
-  dependencies:
-    bufferview "~1"
-    long "~2 >=2.2.3"
 
 bytes@2.3.0:
   version "2.3.0"
@@ -1537,10 +1573,6 @@ colors@1.0.x:
 colors@^1.1.0, colors@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/colors/-/colors-1.1.2.tgz#168a4701756b6a7f51a12ce0c97bfa28c084ed63"
-
-colour@latest:
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/colour/-/colour-0.7.1.tgz#9cb169917ec5d12c0736d3e8685746df1cadf778"
 
 combine-lists@^1.0.0:
   version "1.0.1"
@@ -2095,12 +2127,19 @@ debug@3.2.6, debug@^3.1.0, debug@^3.1.1, debug@^3.2.5, debug@^3.2.6:
   dependencies:
     ms "^2.1.1"
 
-debug@^4, debug@^4.1.0, debug@~4.1.1:
+debug@^4, debug@^4.1.0:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
   integrity sha512-pYAIzeRo8J6KPEaJ0VWOh5Pzkbw/RetuzehGM7QRRX5he4fPHx2rdKMB256ehJCkX+XRQm16eZLqLNS8RSZXZw==
   dependencies:
     ms "^2.1.1"
+
+debug@~4.3.1:
+  version "4.3.7"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.7.tgz#87945b4151a011d76d95a198d7111c865c360a52"
+  integrity sha512-Er2nc/H7RrMXZBFCEim6TCmMk02Z8vLC2Rbi1KEBggpo0fS6l0S1nnapwmIi3yW/+GOJap1Krg4w0Hg80oCqgQ==
+  dependencies:
+    ms "^2.1.3"
 
 decamelize@^1.0.0, decamelize@^1.1.1, decamelize@^1.1.2, decamelize@^1.2.0:
   version "1.2.0"
@@ -5860,9 +5899,10 @@ lolex@1.3.2:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/lolex/-/lolex-1.3.2.tgz#7c3da62ffcb30f0f5a80a2566ca24e45d8a01f31"
 
-"long@~2 >=2.2.3":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/long/-/long-2.4.0.tgz#9fa180bb1d9500cdc29c4156766a1995e1f4524f"
+long@^5.3.2:
+  version "5.3.2"
+  resolved "https://registry.yarnpkg.com/long/-/long-5.3.2.tgz#1d84463095999262d7d7b7f8bfd4a8cc55167f83"
+  integrity sha512-mNAgZ1GmyNhD7AuqnTG3/VQ26o760+ZYBPKjPvugO8+nLbYfX6TVpJPseBvopbdY+qpZ/lKUnmEc1LeZYS3QAA==
 
 longest@^1.0.1:
   version "1.0.1"
@@ -6256,6 +6296,11 @@ ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
+ms@^2.1.3:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
+  integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
+
 multer@^1.0.6:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/multer/-/multer-1.3.0.tgz#092b2670f6846fa4914965efc8cf94c20fec6cd2"
@@ -6431,10 +6476,10 @@ node-forge@0.9.0:
   resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-0.9.0.tgz#d624050edbb44874adca12bb9a52ec63cb782579"
   integrity sha512-7ASaDa3pD+lJ3WvXFsxekJQelBKRpne+GOVbLbtHYdd7pFspyeuJHnWfLplGf3SwKGbfs/aYl5V/JCIaHVUKKQ==
 
-node-forge@^0.9.1:
-  version "0.9.1"
-  resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-0.9.1.tgz#775368e6846558ab6676858a4d8c6e8d16c677b5"
-  integrity sha512-G6RlQt5Sb4GMBzXvhfkeFmbqR6MzhtnT7VTHuLadjkii3rdYHNdw0m8zA4BTxVIh68FicCQ2NSUANpsqkr9jvQ==
+node-forge@^0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-0.10.0.tgz#32dea2afb3e9926f02ee5ce8794902691a676bf3"
+  integrity sha512-PPmu8eEeG9saEUvI97fm4OYxXVB6bFvyNTyiUOBichBpFG8A1Ljw3bY62+5oOjDEMHRnd0Y7HQ+x7uzxOzC6JA==
 
 node-gyp@^3.8.0:
   version "3.8.0"
@@ -6853,10 +6898,6 @@ optionator@^0.8.2:
 options@>=0.0.5:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/options/-/options-0.0.6.tgz#ec22d312806bb53e731773e7cdaefcf1c643128f"
-
-optjs@latest:
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/optjs/-/optjs-3.2.2.tgz#69a6ce89c442a44403141ad2f9b370bd5bb6f4ee"
 
 orchestrator@^0.3.0:
   version "0.3.8"
@@ -7646,12 +7687,22 @@ promise@~7.1.1:
   dependencies:
     asap "~2.0.3"
 
-protobufjs@^3.8.2:
-  version "3.8.2"
-  resolved "https://registry.yarnpkg.com/protobufjs/-/protobufjs-3.8.2.tgz#bc826e34c3af4697e8d0af7a669e4d612aedcd17"
+protobufjs@^7.6.5:
+  version "7.6.5"
+  resolved "https://registry.yarnpkg.com/protobufjs/-/protobufjs-7.6.5.tgz#7b9250cdaf4a06139a9f0fe468a40d7d4febca71"
+  integrity sha512-/FPD0nUc9jH6rfFjji9IBqOz4pcSE3CsT1m7Ep6Mdb0LxSUMj8hgl6GomOvZzpNpAqqGaXA0P3VSrZLFzIhQrw==
   dependencies:
-    ascli "~0.3"
-    bytebuffer "~3 >=3.5"
+    "@protobufjs/aspromise" "^1.1.2"
+    "@protobufjs/base64" "^1.1.2"
+    "@protobufjs/codegen" "^2.0.5"
+    "@protobufjs/eventemitter" "^1.1.1"
+    "@protobufjs/fetch" "^1.1.1"
+    "@protobufjs/float" "^1.0.2"
+    "@protobufjs/path" "^1.1.2"
+    "@protobufjs/pool" "^1.1.0"
+    "@protobufjs/utf8" "^1.1.1"
+    "@types/node" ">=13.7.0"
+    long "^5.3.2"
 
 protractor-html-reporter-2@1.0.4:
   version "1.0.4"
@@ -9948,6 +9999,11 @@ unc-path-regex@^0.1.0:
 underscore@~1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.6.0.tgz#8b38b10cacdef63337b8b24e4ff86d45aea529a8"
+
+undici-types@~8.9.0:
+  version "8.9.0"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-8.9.0.tgz#e240d97c8b5d85e5347ce73d25865c7906c1ec9f"
+  integrity sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg==
 
 union-value@^1.0.0:
   version "1.0.1"
